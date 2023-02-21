@@ -1,2 +1,3 @@
 hello git~!
 git push test
+git pull test
