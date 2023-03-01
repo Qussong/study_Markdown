@@ -69,9 +69,13 @@
 ```
  
 [link]
+---
 <https://blog.naver.com/qussong_coding_story>
 
 [my blog](https://blog.naver.com/qussong_coding_story)
 
 [my blog](https://blog.naver.com/qussong_coding_story, "naver blog")
 
+[insert image]
+---
+![my cat](./test_01/images/seol.jpg)
