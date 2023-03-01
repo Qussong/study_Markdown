@@ -78,4 +78,4 @@
 
 [insert image]
 ---
-![my cat](./test_01/images/seol.jpg)
+![my cat](./images/seol.jpg)
