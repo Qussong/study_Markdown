@@ -42,4 +42,8 @@
 
 ~~취소선 : 취소선을 나타낼 텍스트의 앞뒤를 ~~ 로 감싼다.~~
 
+[quote]
+---
+> The information manager from hell.
+>> git means "Global Information tracker"
 
