@@ -23,3 +23,11 @@
 3. push
 4. pull vs fethch
 5. 협업하기
+
+[bulleted list]
+---
++ 원격 저장소 만들기
+- origin 연결하기
+* push
++ pull vs fethch
+- 협업하기
