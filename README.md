@@ -47,3 +47,24 @@
 > The information manager from hell.
 >> git means "Global Information tracker"
 
+[source code]
+--- 
+한 줄짜리 코드는 `function add(x,y) { return x + y }` 처럼 사용한다.
+
+- 프로그래밍 언어 미 입력
+```
+<script>
+  var now = new Date();
+  var display = new.toLocaleTimeStrin();
+  document.write("현재 시각은" + display);
+ </script>
+```
+- 프로그래밍 언어
+```javascript
+<script>
+  var now = new Date();
+  var display = new.toLocaleTimeStrin();
+  document.write("현재 시각은" + display);
+ </script>
+```
+ 
