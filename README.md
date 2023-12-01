@@ -64,9 +64,9 @@ int main()
 <br>
 
 # Link
-link1 : [NAVER](https://naver.com, "naver link")
+link1 : [Qussong's GihHub](https://github.com/Qussong "Qussong's GihHub")
 
-link2 : <https://naver.com>   
+link2 : <https://github.com/Qussong>   
 
 <br>
 
@@ -76,13 +76,13 @@ link2 : <https://naver.com>
 ![이미지 설명](경로)
 '!' 를 붙이지 않으면 '이미지 설명' 으로 하이퍼링크가 생긴다.
 ```
-[seol](./seol.png)  
-![seol](./seol.png) 
+[seol](./images/seol.jpg)  
+![seol](./images/seol.jpg) 
 ```
 html 의 img 태그를 사용하여 높이, 너비 속성을 부여할 수 있다.
 <img src='경로', height='px', width='px'>
 ```
-<img src=./seol.png height=50 alt=seol>
-<img src=./seol.png height=100 alt=seol>
-<img src=./seol.png height=150 alt=seol>
-<img src=./seol.png height=200 alt=seol><br>
+<img src=./images/seol.jpg height=50 alt=seol>
+<img src=./images/seol.jpg height=100 alt=seol>
+<img src=./images/seol.jpg height=150 alt=seol>
+<img src=./images/seol.jpg height=200 alt=seol><br>
