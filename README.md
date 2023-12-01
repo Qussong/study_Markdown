@@ -1,81 +1,88 @@
-[title]
----
-# title1
-## title2
-### title3
-#### title4
-##### title5
-###### title6
 
-[row]
----
----
----------
-- - -
-***
-*********
-* * *
+# Header (H1)
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+<br>
 
-[numbered list]
----
-1. 원격 저장소 만들기
-2. origin 연결하기
-3. push
-4. pull vs fethch
-5. 협업하기
+# emoji
+### website : https://www.webfx.com/tools/emoji-cheat-sheet/
+:gem: :rainbow: :fire: :sparkles: :star:  
+:green_book: :closed_book: :blue_book: :books: :file_folder:  
+:pushpin: :round_pushpin: :question: :exclamation:  
+:ghost: :skull: :eyes: :hatching_chick: :baby_chick: :bird:  
+<br>
 
-[bulleted list]
----
-+ 원격 저장소 만들기
-- origin 연결하기
-* push
-  + pull vs fethch
-  - 협업하기
+# 텍스트
+취소선  : ~~취소선~~  
+밑줄    : <u>밑줄</u>  
+깅울임  : *single asterisks* / _signle underscores_  
+강조    : **double asterisks** / __double underscores__  
+<br>
 
-[highlight]
----
-**굵게 : 굵게 나타낼 텍스의 앞뒤를 ** 또는 __ 로 감싼다.**
+# 형광펜
+<span style='background-color:#ffffaa;'>노란형광펜</span>
+<span style='color:black;background-color:#ffffaa;'>노란형광펜</span>  
+<span style='background-color:#ffaaaa;'>붉은형광펜</span>
+<span style='color:black;background-color:#ffaaaa;'>붉은형광펜</span>  
+<span style='background-color:#cccccc;'>회색형광펜</span>
+<span style='color:black;background-color:#cccccc;'>회색형광펜</span>  
+<span style='background-color:#aaffaa;'>초록형광펜</span>
+<span style='color:black;background-color:#aaffaa;'>초록형광펜</span>  
+<span style='background-color:#cc99ff;'>보라형광펜</span>
+<span style='color:black;background-color:#cc99ff;'>보라형광펜</span>  
+<span style='background-color:#7777ff;'>파랑형광펜</span>
+<span style='color:black;background-color:#7777ff;'>파랑형광펜</span>  
+<br>
 
-*기울임체 : 기울임체로 나타낼 텍스트를 * 또는 _ 로 감싼다.*
+# BlockQuote
+> This is a first blockquote
+>   > This is a second blockquote
+>   >   > This is a third blockquote
 
-***굵은 기울임체 : 굵은 기울임체로 나타낼 텍스트의 앞뒤를 *** 또는 ___ 로 감싼다.***
+<br>
 
-~~취소선 : 취소선을 나타낼 텍스트의 앞뒤를 ~~ 로 감싼다.~~
+# Code (inline, 인라인 코드)
+This is a normal paragraph :
 
-[quote]
----
-> The information manager from hell.
->> git means "Global Information tracker"
+    This is a code block.
+end code block  
+<br>
 
-[source code]
---- 
-한 줄짜리 코드는 `function add(x,y) { return x + y }` 처럼 사용한다.
+# CodeBlock
+```cpp
+#include <iostream>
 
-- 프로그래밍 언어 미 입력
+int main()
+{
+    std::cout << "Hello World"
+    return 0;
+}
 ```
-<script>
-  var now = new Date();
-  var display = new.toLocaleTimeStrin();
-  document.write("현재 시각은" + display);
- </script>
+<br>
+
+# Link
+link1 : [NAVER](https://naver.com, "naver link")
+
+link2 : <https://naver.com>   
+
+<br>
+
+
+# 이미지
 ```
-- 프로그래밍 언어
-```javascript
-<script>
-  var now = new Date();
-  var display = new.toLocaleTimeStrin();
-  document.write("현재 시각은" + display);
- </script>
+![이미지 설명](경로)
+'!' 를 붙이지 않으면 '이미지 설명' 으로 하이퍼링크가 생긴다.
 ```
- 
-[link]
----
-<https://blog.naver.com/qussong_coding_story>
-
-[my blog](https://blog.naver.com/qussong_coding_story)
-
-[my blog](https://blog.naver.com/qussong_coding_story, "naver blog")
-
-[insert image]
----
-![my cat](./images/seol.jpg)
+[seol](./seol.png)  
+![seol](./seol.png) 
+```
+html 의 img 태그를 사용하여 높이, 너비 속성을 부여할 수 있다.
+<img src='경로', height='px', width='px'>
+```
+<img src=./seol.png height=50 alt=seol>
+<img src=./seol.png height=100 alt=seol>
+<img src=./seol.png height=150 alt=seol>
+<img src=./seol.png height=200 alt=seol><br>
